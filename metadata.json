@@ -1,0 +1,8 @@
+{
+  "name": "SL Vendas — Sistema Inteligente de Gestão e Vendas",
+  "description": "Sistema de gestão e vendas multi-loja em tempo real para Moçambique (MZN). Painel verde para o Gestor Geral e azul para Vendedores, com controlo de stock, POS, M-Pesa/e-Mola, suporte offline e IA.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

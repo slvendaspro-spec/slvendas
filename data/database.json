@@ -1,0 +1,1643 @@
+{
+  "stores": [
+    {
+      "id": "store-1",
+      "code": "LOJA-01",
+      "name": "Loja 1 - Centro",
+      "city": "Quelimane",
+      "province": "Zambézia",
+      "address": "Av. Josina Machel, 450 - Centro Comercial",
+      "phone": "+258 84 123 4567",
+      "managerName": "Ana Paula",
+      "status": "online",
+      "dailyTarget": 20000,
+      "lastSync": "16/10/2026 09:16",
+      "coordinates": {
+        "lat": -17.8786,
+        "lng": 36.8882
+      },
+      "currency": "MZN",
+      "taxRate": 16
+    },
+    {
+      "id": "store-2",
+      "code": "LOJA-02",
+      "name": "Loja 2 - Quelimane (Zimpeto)",
+      "city": "Quelimane",
+      "province": "Zambézia",
+      "address": "Rua das Flores, 112 - Bairro Zimpeto",
+      "phone": "+258 84 987 6543",
+      "managerName": "Carlos Nhantumbo",
+      "status": "online",
+      "dailyTarget": 15000,
+      "lastSync": "15/10/2026 10:23",
+      "coordinates": {
+        "lat": -17.865,
+        "lng": 36.892
+      }
+    },
+    {
+      "id": "store-3",
+      "code": "LOJA-03",
+      "name": "Loja 3 - 25 de Setembro",
+      "city": "Quelimane",
+      "province": "Zambézia",
+      "address": "Av. 25 de Setembro, Praça dos Heróis",
+      "phone": "+258 82 345 6789",
+      "managerName": "João Paulo",
+      "status": "online",
+      "dailyTarget": 18000,
+      "lastSync": "15/10/2026 10:20",
+      "coordinates": {
+        "lat": -17.872,
+        "lng": 36.879
+      }
+    },
+    {
+      "id": "store-4",
+      "code": "LOJA-04",
+      "name": "Loja 4 - Macurungo",
+      "city": "Quelimane",
+      "province": "Zambézia",
+      "address": "Estrada Nacional N10, Bairro Macurungo",
+      "phone": "+258 86 555 4321",
+      "managerName": "Sandra Félix",
+      "status": "online",
+      "dailyTarget": 12000,
+      "lastSync": "15/10/2026 10:19",
+      "coordinates": {
+        "lat": -17.884,
+        "lng": 36.871
+      }
+    },
+    {
+      "id": "store-5",
+      "code": "LOJA-05",
+      "name": "Loja 5 - Namuac",
+      "city": "Namuac",
+      "province": "Zambézia",
+      "address": "Vila de Namuac, Estrada Principal",
+      "phone": "+258 87 222 9988",
+      "managerName": "Rui Manuel",
+      "status": "online",
+      "dailyTarget": 10000,
+      "lastSync": "15/10/2026 10:15",
+      "coordinates": {
+        "lat": -17.893,
+        "lng": 36.91
+      }
+    },
+    {
+      "id": "store-6",
+      "code": "LOJA-06",
+      "name": "Loja 6 - Murrumbala",
+      "city": "Murrumbala",
+      "province": "Zambézia",
+      "address": "Av. Eduardo Mondlane, Centro",
+      "phone": "+258 84 444 7788",
+      "managerName": "Mateus Cossa",
+      "status": "online",
+      "dailyTarget": 14000,
+      "lastSync": "15/10/2026 10:25",
+      "coordinates": {
+        "lat": -17.321,
+        "lng": 35.857
+      }
+    },
+    {
+      "code": "LOJA-07",
+      "name": "Moisesmarioestenda ",
+      "city": "Quelimane",
+      "province": "Zambézia",
+      "address": "AV.FRANCISCOMANIANGA",
+      "phone": "+258 84 ",
+      "managerName": "Amina Augusto ",
+      "status": "online",
+      "dailyTarget": 15000,
+      "coordinates": {
+        "lat": -17.875,
+        "lng": 36.885
+      },
+      "id": "store-1792064211107",
+      "lastSync": "15/10/2026 11:36"
+    }
+  ],
+  "users": [
+    {
+      "id": "user-admin",
+      "name": "Moisés Estenda",
+      "email": "moisesmarioestenda1999@gmail.com",
+      "phone": "+258 84 000 0001",
+      "role": "admin",
+      "status": "active",
+      "permissions": {
+        "canApplyDiscount": true,
+        "maxDiscountPercent": 50,
+        "canCancelSales": true,
+        "canViewReports": true,
+        "canEditStock": true
+      },
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80",
+      "lastLogin": "Hoje às 00:45"
+    },
+    {
+      "id": "user-seller-2",
+      "name": "Carlos Nhantumbo",
+      "email": "carlos.nhantumbo@slvendas.co.mz",
+      "phone": "+258 84 987 6543",
+      "role": "seller",
+      "storeId": "store-2",
+      "storeName": "Loja 2 - Quelimane (Zimpeto)",
+      "status": "active",
+      "permissions": {
+        "canApplyDiscount": true,
+        "maxDiscountPercent": 10,
+        "canCancelSales": false,
+        "canViewReports": false,
+        "canEditStock": false
+      },
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80",
+      "lastLogin": "Hoje às 00:52"
+    },
+    {
+      "id": "user-seller-1",
+      "name": "Ana Paula",
+      "email": "ana.paula@slvendas.co.mz",
+      "phone": "+258 84 123 4567",
+      "role": "seller",
+      "storeId": "store-1",
+      "storeName": "Loja 1 - Centro",
+      "status": "active",
+      "permissions": {
+        "canApplyDiscount": true,
+        "maxDiscountPercent": 10,
+        "canCancelSales": false,
+        "canViewReports": false,
+        "canEditStock": false
+      },
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&q=80",
+      "lastLogin": "Hoje às 08:44"
+    },
+    {
+      "id": "user-seller-3",
+      "name": "João Paulo",
+      "email": "joao.paulo@slvendas.co.mz",
+      "phone": "+258 82 345 6789",
+      "role": "seller",
+      "storeId": "store-3",
+      "storeName": "Loja 3 - 25 de Setembro",
+      "status": "active",
+      "permissions": {
+        "canApplyDiscount": true,
+        "maxDiscountPercent": 12,
+        "canCancelSales": false,
+        "canViewReports": false,
+        "canEditStock": false
+      },
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&q=80",
+      "lastLogin": "Hoje às 09:12"
+    },
+    {
+      "id": "user-seller-4",
+      "name": "Sandra Félix",
+      "email": "sandra.felix@slvendas.co.mz",
+      "phone": "+258 86 555 4321",
+      "role": "seller",
+      "storeId": "store-4",
+      "storeName": "Loja 4 - Macurungo",
+      "status": "active",
+      "permissions": {
+        "canApplyDiscount": false,
+        "maxDiscountPercent": 0,
+        "canCancelSales": false,
+        "canViewReports": false,
+        "canEditStock": false
+      },
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&q=80",
+      "lastLogin": "Hoje às 08:50"
+    },
+    {
+      "id": "user-seller-5",
+      "name": "Rui Manuel",
+      "email": "rui.manuel@slvendas.co.mz",
+      "phone": "+258 87 222 9988",
+      "role": "seller",
+      "storeId": "store-5",
+      "storeName": "Loja 5 - Namuac",
+      "status": "active",
+      "permissions": {
+        "canApplyDiscount": true,
+        "maxDiscountPercent": 8,
+        "canCancelSales": false,
+        "canViewReports": false,
+        "canEditStock": false
+      },
+      "avatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=150&q=80",
+      "lastLogin": "Hoje às 08:35"
+    },
+    {
+      "id": "user-seller-6",
+      "name": "Mateus Cossa",
+      "email": "mateus.cossa@slvendas.co.mz",
+      "phone": "+258 84 444 7788",
+      "role": "seller",
+      "storeId": "store-6",
+      "storeName": "Loja 6 - Murrumbala",
+      "status": "active",
+      "permissions": {
+        "canApplyDiscount": true,
+        "maxDiscountPercent": 10,
+        "canCancelSales": false,
+        "canViewReports": false,
+        "canEditStock": false
+      },
+      "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=150&q=80",
+      "lastLogin": "Hoje às 09:10"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-1",
+      "code": "FON-001",
+      "barcode": "600100200301",
+      "name": "Fones Bluetooth Sem Fios Pro",
+      "category": "Electrónica",
+      "description": "Fones de ouvido bluetooth com cancelamento de ruído e estojo de carga rápida.",
+      "costPrice": 700,
+      "sellingPrice": 1200,
+      "stockQuantity": 15,
+      "minStock": 5,
+      "supplierId": "sup-1",
+      "supplierName": "Mocambique Tech Distribuidora",
+      "imageUrl": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "prod-2",
+      "code": "CAP-002",
+      "barcode": "600100200302",
+      "name": "Capas de Telemóvel Antichoque",
+      "category": "Acessórios",
+      "description": "Capa reforçada de silicone fosco antichoque para vários modelos.",
+      "costPrice": 150,
+      "sellingPrice": 350,
+      "stockQuantity": 28,
+      "minStock": 10,
+      "supplierId": "sup-1",
+      "supplierName": "Mocambique Tech Distribuidora",
+      "imageUrl": "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "prod-3",
+      "code": "POW-003",
+      "barcode": "600100200303",
+      "name": "Power Bank 10000mAh Ultra Rápido",
+      "category": "Electrónica",
+      "description": "Bateria externa portátil de alta capacidade com visor digital e 2 saídas USB.",
+      "costPrice": 620,
+      "sellingPrice": 1000,
+      "stockQuantity": 12,
+      "minStock": 5,
+      "supplierId": "sup-2",
+      "supplierName": "Zambézia Importações Lda",
+      "imageUrl": "https://images.unsplash.com/photo-1609592424364-a698a6bb5c68?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "prod-4",
+      "code": "CAR-004",
+      "barcode": "600100200304",
+      "name": "Carregador USB Rápido 20W",
+      "category": "Acessórios",
+      "description": "Adaptador de corrente turbo com saída Tipo-C e USB padrão.",
+      "costPrice": 220,
+      "sellingPrice": 450,
+      "stockQuantity": 19,
+      "minStock": 8,
+      "supplierId": "sup-1",
+      "supplierName": "Mocambique Tech Distribuidora",
+      "imageUrl": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "prod-5",
+      "code": "CAB-005",
+      "barcode": "600100200305",
+      "name": "Cabo de Dados Tipo-C Reforçado 1.5m",
+      "category": "Acessórios",
+      "description": "Cabo trançado de nylon de alta durabilidade e carga rápida 3A.",
+      "costPrice": 130,
+      "sellingPrice": 300,
+      "stockQuantity": 43,
+      "minStock": 15,
+      "supplierId": "sup-1",
+      "supplierName": "Mocambique Tech Distribuidora",
+      "imageUrl": "https://images.unsplash.com/photo-1541658016709-82535e94bc69?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "prod-6",
+      "code": "MEM-006",
+      "barcode": "600100200306",
+      "name": "Cartão de Memória MicroSD 64GB",
+      "category": "Electrónica",
+      "description": "Cartão MicroSD Classe 10 de alta velocidade com adaptador SD.",
+      "costPrice": 380,
+      "sellingPrice": 650,
+      "stockQuantity": 18,
+      "minStock": 6,
+      "supplierId": "sup-2",
+      "supplierName": "Zambézia Importações Lda",
+      "imageUrl": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "prod-7",
+      "code": "COL-007",
+      "barcode": "600100200307",
+      "name": "Coluna Bluetooth Portátil à Prova dÁgua",
+      "category": "Áudio",
+      "description": "Coluna sem fios com graves potentes e bateria de até 10 horas de reprodução contínua.",
+      "costPrice": 1100,
+      "sellingPrice": 1800,
+      "stockQuantity": 8,
+      "minStock": 4,
+      "supplierId": "sup-2",
+      "supplierName": "Zambézia Importações Lda",
+      "imageUrl": "https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "prod-8",
+      "code": "PEL-008",
+      "barcode": "600100200308",
+      "name": "Película de Vidro Temperado 9D",
+      "category": "Acessórios",
+      "description": "Protector de ecrã integral de alta resistência contra quedas e riscos.",
+      "costPrice": 60,
+      "sellingPrice": 150,
+      "stockQuantity": 61,
+      "minStock": 20,
+      "supplierId": "sup-1",
+      "supplierName": "Mocambique Tech Distribuidora",
+      "imageUrl": "https://images.unsplash.com/photo-1584438784894-089d6a62b8fa?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "prod-9",
+      "code": "SUP-009",
+      "barcode": "600100200309",
+      "name": "Suporte Articulado para Carro",
+      "category": "Acessórios",
+      "description": "Suporte de fixação magnética e ventosa para painel de viatura.",
+      "costPrice": 280,
+      "sellingPrice": 550,
+      "stockQuantity": 14,
+      "minStock": 5,
+      "supplierId": "sup-2",
+      "supplierName": "Zambézia Importações Lda",
+      "imageUrl": "https://images.unsplash.com/photo-1586105251261-72a756497a11?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "prod-test-usb",
+      "code": "CAB-TEST",
+      "barcode": "600100999001",
+      "name": "Cabo USB de Teste",
+      "category": "Acessórios",
+      "description": "Cabo USB reforçado para testes de vendas e controlo de inventário.",
+      "costPrice": 150,
+      "sellingPrice": 300,
+      "stockQuantity": 7,
+      "minStock": 3,
+      "supplierId": "sup-1",
+      "supplierName": "Mocambique Tech Distribuidora",
+      "imageUrl": "https://images.unsplash.com/photo-1541658016709-82535e94bc69?auto=format&fit=crop&w=400&q=80"
+    }
+  ],
+  "sales": [
+    {
+      "id": "sale-1792141876773-6428",
+      "receiptNumber": "SLV-2026-7701",
+      "storeId": "store-6",
+      "storeName": "Loja 6 - Murrumbala",
+      "sellerId": "user-seller-6",
+      "sellerName": "Mateus Cossa",
+      "items": [
+        {
+          "productId": "prod-test-usb",
+          "productCode": "CAB-TEST",
+          "productName": "Cabo USB de Teste",
+          "quantity": 1,
+          "unitCost": 150,
+          "unitPrice": 300,
+          "subtotal": 300
+        },
+        {
+          "productId": "prod-5",
+          "productCode": "CAB-005",
+          "productName": "Cabo de Dados Tipo-C Reforçado 1.5m",
+          "quantity": 2,
+          "unitCost": 130,
+          "unitPrice": 300,
+          "subtotal": 600
+        },
+        {
+          "productId": "prod-4",
+          "productCode": "CAR-004",
+          "productName": "Carregador USB Rápido 20W",
+          "quantity": 1,
+          "unitCost": 220,
+          "unitPrice": 450,
+          "subtotal": 450
+        }
+      ],
+      "subtotal": 1350,
+      "discount": 0,
+      "total": 1350,
+      "costTotal": 630,
+      "profit": 720,
+      "paymentMethod": "dinheiro",
+      "paidAmount": 1350,
+      "changeAmount": 0,
+      "status": "paid",
+      "createdAt": "16/10/2026 11:11",
+      "syncStatus": "synced",
+      "customerName": "Cliente Balcão"
+    },
+    {
+      "receiptNumber": "SLV-SYNC-2818",
+      "storeId": "store-2",
+      "storeName": "Loja 2 - Quelimane (Zimpeto)",
+      "sellerId": "user-seller-2",
+      "sellerName": "Carlos Nhantumbo",
+      "items": [
+        {
+          "productId": "prod-test-usb",
+          "productCode": "CAB-TEST",
+          "productName": "Cabo USB de Teste",
+          "quantity": 1,
+          "unitCost": 150,
+          "unitPrice": 300,
+          "subtotal": 300
+        }
+      ],
+      "subtotal": 300,
+      "discount": 0,
+      "total": 300,
+      "costTotal": 150,
+      "profit": 150,
+      "paymentMethod": "mpesa",
+      "paymentRef": "MP-SYNC-REAL",
+      "paidAmount": 300,
+      "changeAmount": 0,
+      "status": "paid",
+      "customerName": "Cliente Balcão Sincronização",
+      "syncStatus": "synced",
+      "id": "sale-1792065082820",
+      "createdAt": "15/10/2026 11:51"
+    },
+    {
+      "receiptNumber": "SLV-2026-REAL02",
+      "storeId": "store-2",
+      "storeName": "Loja 2 - Quelimane (Zimpeto)",
+      "sellerId": "user-seller-2",
+      "sellerName": "Carlos Nhantumbo",
+      "items": [
+        {
+          "productId": "prod-8",
+          "productCode": "PEL-008",
+          "productName": "Película de Vidro Temperado 9D",
+          "quantity": 1,
+          "unitCost": 60,
+          "unitPrice": 150,
+          "subtotal": 150
+        }
+      ],
+      "subtotal": 150,
+      "discount": 0,
+      "total": 150,
+      "costTotal": 60,
+      "profit": 90,
+      "paymentMethod": "dinheiro",
+      "paidAmount": 200,
+      "changeAmount": 50,
+      "status": "paid",
+      "customerName": "Cliente Real Quelimane",
+      "id": "sale-1792064902683",
+      "syncStatus": "synced",
+      "createdAt": "15/10/2026 11:48"
+    },
+    {
+      "receiptNumber": "SLV-2026-TEST01",
+      "storeId": "store-2",
+      "storeName": "Loja 2 - Quelimane (Zimpeto)",
+      "sellerId": "user-seller-2",
+      "sellerName": "Carlos Nhantumbo",
+      "items": [
+        {
+          "productId": "prod-test-usb",
+          "productCode": "CAB-TEST",
+          "productName": "Cabo USB de Teste",
+          "quantity": 1,
+          "unitCost": 150,
+          "unitPrice": 300,
+          "subtotal": 300
+        }
+      ],
+      "subtotal": 300,
+      "discount": 0,
+      "total": 300,
+      "costTotal": 150,
+      "profit": 150,
+      "paymentMethod": "mpesa",
+      "paymentRef": "MP-TEST-9901",
+      "paidAmount": 300,
+      "changeAmount": 0,
+      "status": "paid",
+      "customerName": "Cliente de Teste SL",
+      "createdAt": "15/10/2026 11:42",
+      "id": "sale-1792064538915",
+      "syncStatus": "synced"
+    },
+    {
+      "id": "sale-001",
+      "receiptNumber": "SLV-2026-1001",
+      "storeId": "store-2",
+      "storeName": "Loja 2 - Quelimane (Zimpeto)",
+      "sellerId": "user-seller-2",
+      "sellerName": "Carlos Nhantumbo",
+      "items": [
+        {
+          "productId": "prod-1",
+          "productCode": "FON-001",
+          "productName": "Fones Bluetooth Sem Fios Pro",
+          "quantity": 1,
+          "unitCost": 700,
+          "unitPrice": 1200,
+          "subtotal": 1200
+        }
+      ],
+      "subtotal": 1200,
+      "discount": 0,
+      "total": 1200,
+      "costTotal": 700,
+      "profit": 500,
+      "paymentMethod": "mpesa",
+      "paymentRef": "MP261015-8842",
+      "status": "paid",
+      "createdAt": "15/10/2026 10:18",
+      "syncStatus": "synced",
+      "customerName": "Manuel Chissano"
+    },
+    {
+      "id": "sale-002",
+      "receiptNumber": "SLV-2026-1002",
+      "storeId": "store-2",
+      "storeName": "Loja 2 - Quelimane (Zimpeto)",
+      "sellerId": "user-seller-2",
+      "sellerName": "Carlos Nhantumbo",
+      "items": [
+        {
+          "productId": "prod-2",
+          "productCode": "CAP-002",
+          "productName": "Capas de Telemóvel Antichoque",
+          "quantity": 1,
+          "unitCost": 150,
+          "unitPrice": 350,
+          "subtotal": 350
+        }
+      ],
+      "subtotal": 350,
+      "discount": 0,
+      "total": 350,
+      "costTotal": 150,
+      "profit": 200,
+      "paymentMethod": "dinheiro",
+      "paidAmount": 500,
+      "changeAmount": 150,
+      "status": "paid",
+      "createdAt": "15/10/2026 09:47",
+      "syncStatus": "synced",
+      "customerName": "Cliente Balcão"
+    },
+    {
+      "id": "sale-003",
+      "receiptNumber": "SLV-2026-1003",
+      "storeId": "store-2",
+      "storeName": "Loja 2 - Quelimane (Zimpeto)",
+      "sellerId": "user-seller-2",
+      "sellerName": "Carlos Nhantumbo",
+      "items": [
+        {
+          "productId": "prod-4",
+          "productCode": "CAR-004",
+          "productName": "Carregador USB Rápido 20W",
+          "quantity": 1,
+          "unitCost": 220,
+          "unitPrice": 450,
+          "subtotal": 450
+        }
+      ],
+      "subtotal": 450,
+      "discount": 0,
+      "total": 450,
+      "costTotal": 220,
+      "profit": 230,
+      "paymentMethod": "emola",
+      "paymentRef": "EM261015-4421",
+      "status": "paid",
+      "createdAt": "15/10/2026 09:32",
+      "syncStatus": "synced",
+      "customerName": "Fátima Couto"
+    },
+    {
+      "id": "sale-004",
+      "receiptNumber": "SLV-2026-1004",
+      "storeId": "store-2",
+      "storeName": "Loja 2 - Quelimane (Zimpeto)",
+      "sellerId": "user-seller-2",
+      "sellerName": "Carlos Nhantumbo",
+      "items": [
+        {
+          "productId": "prod-5",
+          "productCode": "CAB-005",
+          "productName": "Cabo de Dados Tipo-C Reforçado 1.5m",
+          "quantity": 1,
+          "unitCost": 130,
+          "unitPrice": 300,
+          "subtotal": 300
+        }
+      ],
+      "subtotal": 300,
+      "discount": 0,
+      "total": 300,
+      "costTotal": 130,
+      "profit": 170,
+      "paymentMethod": "dinheiro",
+      "paidAmount": 500,
+      "changeAmount": 200,
+      "status": "paid",
+      "createdAt": "15/10/2026 08:55",
+      "syncStatus": "synced",
+      "customerName": "Cliente Balcão"
+    },
+    {
+      "id": "sale-005",
+      "receiptNumber": "SLV-2026-1005",
+      "storeId": "store-2",
+      "storeName": "Loja 2 - Quelimane (Zimpeto)",
+      "sellerId": "user-seller-2",
+      "sellerName": "Carlos Nhantumbo",
+      "items": [
+        {
+          "productId": "prod-3",
+          "productCode": "POW-003",
+          "productName": "Power Bank 10000mAh Ultra Rápido",
+          "quantity": 1,
+          "unitCost": 620,
+          "unitPrice": 1000,
+          "subtotal": 1000
+        }
+      ],
+      "subtotal": 1000,
+      "discount": 0,
+      "total": 1000,
+      "costTotal": 620,
+      "profit": 380,
+      "paymentMethod": "mpesa",
+      "paymentRef": "MP261015-1109",
+      "status": "paid",
+      "createdAt": "15/10/2026 08:20",
+      "syncStatus": "synced",
+      "customerName": "Alberto Sengo"
+    },
+    {
+      "id": "sale-006",
+      "receiptNumber": "SLV-2026-1006",
+      "storeId": "store-3",
+      "storeName": "Loja 3 - 25 de Setembro",
+      "sellerId": "user-seller-3",
+      "sellerName": "João Paulo",
+      "items": [
+        {
+          "productId": "prod-7",
+          "productCode": "COL-007",
+          "productName": "Coluna Bluetooth Portátil à Prova dÁgua",
+          "quantity": 1,
+          "unitCost": 1100,
+          "unitPrice": 1800,
+          "subtotal": 1800
+        },
+        {
+          "productId": "prod-6",
+          "productCode": "MEM-006",
+          "productName": "Cartão de Memória MicroSD 64GB",
+          "quantity": 1,
+          "unitCost": 380,
+          "unitPrice": 650,
+          "subtotal": 650
+        }
+      ],
+      "subtotal": 2450,
+      "discount": 0,
+      "total": 2450,
+      "costTotal": 1480,
+      "profit": 970,
+      "paymentMethod": "mpesa",
+      "paymentRef": "MP261015-7731",
+      "status": "paid",
+      "createdAt": "15/10/2026 12:36",
+      "syncStatus": "synced",
+      "customerName": "Armando Guebuza Jr."
+    },
+    {
+      "id": "sale-007",
+      "receiptNumber": "SLV-2026-1007",
+      "storeId": "store-1",
+      "storeName": "Loja 1 - Centro",
+      "sellerId": "user-seller-1",
+      "sellerName": "Ana Paula",
+      "items": [
+        {
+          "productId": "prod-1",
+          "productCode": "FON-001",
+          "productName": "Fones Bluetooth Sem Fios Pro",
+          "quantity": 1,
+          "unitCost": 700,
+          "unitPrice": 1200,
+          "subtotal": 1200
+        },
+        {
+          "productId": "prod-5",
+          "productCode": "CAB-005",
+          "productName": "Cabo de Dados Tipo-C Reforçado 1.5m",
+          "quantity": 1,
+          "unitCost": 130,
+          "unitPrice": 300,
+          "subtotal": 300
+        }
+      ],
+      "subtotal": 1500,
+      "discount": 250,
+      "total": 1250,
+      "costTotal": 830,
+      "profit": 420,
+      "paymentMethod": "mpesa",
+      "paymentRef": "MP261015-9922",
+      "status": "paid",
+      "createdAt": "15/10/2026 14:12",
+      "syncStatus": "synced",
+      "customerName": "Helena Mondlane"
+    }
+  ],
+  "expenses": [
+    {
+      "id": "exp-1",
+      "storeId": "store-1",
+      "storeName": "Loja 1 - Centro",
+      "category": "energia_agua",
+      "description": "Pagamento de energia EDM - Mês de Outubro",
+      "amount": 1850,
+      "date": "14/10/2026",
+      "createdBy": "Moisés Estenda"
+    },
+    {
+      "id": "exp-2",
+      "storeId": "store-2",
+      "storeName": "Loja 2 - Quelimane (Zimpeto)",
+      "category": "transporte",
+      "description": "Transporte de reposição de mercadoria da sede",
+      "amount": 600,
+      "date": "13/10/2026",
+      "createdBy": "Carlos Nhantumbo"
+    },
+    {
+      "id": "exp-3",
+      "storeId": "store-3",
+      "storeName": "Loja 3 - 25 de Setembro",
+      "category": "outros",
+      "description": "Rolos térmicos de recibos para impressora POS",
+      "amount": 450,
+      "date": "12/10/2026",
+      "createdBy": "João Paulo"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1792142196679",
+      "type": "failed_login",
+      "title": "Tentativa de Acesso Inválida",
+      "message": "Tentativa falhada de autenticação para a conta \"moisesmarioestenda1999@gmail.com\".",
+      "recommendedAction": "Verificar se é um vendedor legítimo ou tentativa não autorizada.",
+      "timestamp": "Agora mesmo",
+      "read": false,
+      "severity": "danger"
+    },
+    {
+      "id": "notif-1792142186147",
+      "type": "failed_login",
+      "title": "Tentativa de Acesso Inválida",
+      "message": "Tentativa falhada de autenticação para a conta \"admin@slvendas.co.mz\".",
+      "recommendedAction": "Verificar se é um vendedor legítimo ou tentativa não autorizada.",
+      "timestamp": "Agora mesmo",
+      "read": false,
+      "severity": "danger"
+    },
+    {
+      "id": "notif-1792140413728",
+      "type": "failed_login",
+      "title": "Tentativa de Acesso Inválida",
+      "message": "Tentativa falhada de autenticação para a conta \"moisesmarioestenda1999@gmail.com\".",
+      "recommendedAction": "Verificar se é um vendedor legítimo ou tentativa não autorizada.",
+      "timestamp": "Agora mesmo",
+      "read": false,
+      "severity": "danger"
+    },
+    {
+      "id": "notif-1792140241404",
+      "type": "failed_login",
+      "title": "Tentativa de Acesso Inválida",
+      "message": "Tentativa falhada de autenticação para a conta \"ana.paula@slvendas.co.mz\".",
+      "recommendedAction": "Verificar se é um vendedor legítimo ou tentativa não autorizada.",
+      "timestamp": "Agora mesmo",
+      "read": false,
+      "severity": "danger"
+    },
+    {
+      "id": "notif-1792140241310",
+      "type": "failed_login",
+      "title": "Tentativa de Acesso Inválida",
+      "message": "Tentativa falhada de autenticação para a conta \"moisesmarioestenda1999@gmail.com\".",
+      "recommendedAction": "Verificar se é um vendedor legítimo ou tentativa não autorizada.",
+      "timestamp": "Agora mesmo",
+      "read": false,
+      "severity": "danger"
+    },
+    {
+      "id": "notif-1",
+      "type": "sale",
+      "storeId": "store-3",
+      "storeName": "Loja 3 - 25 de Setembro",
+      "title": "Venda de Alto Valor Registada",
+      "message": "Venda de 2.450,00 MZN realizada por João Paulo via M-Pesa.",
+      "recommendedAction": "Acompanhar fecho de caixa diário desta loja.",
+      "timestamp": "Há 12 minutos",
+      "read": false,
+      "severity": "success"
+    },
+    {
+      "id": "notif-2",
+      "type": "low_stock",
+      "storeId": "store-2",
+      "storeName": "Loja 2 - Quelimane (Zimpeto)",
+      "title": "Alerta de Stock Baixo: Power Bank",
+      "message": "O produto Power Bank 10000mAh atingiu apenas 12 unidades (mínimo: 5).",
+      "recommendedAction": "Emitir pedido de reposição ao fornecedor Zambézia Importações.",
+      "timestamp": "Há 37 minutos",
+      "read": false,
+      "severity": "warning"
+    },
+    {
+      "id": "notif-3",
+      "type": "device",
+      "storeId": "store-2",
+      "storeName": "Loja 2 - Quelimane (Zimpeto)",
+      "title": "Novo Dispositivo Vendedor Conectado",
+      "message": "Carlos Nhantumbo iniciou sessão no smartphone Samsung Galaxy A54.",
+      "recommendedAction": "Verificar autorização na aba Dispositivos caso não reconhecido.",
+      "timestamp": "Há 1 hora",
+      "read": false,
+      "severity": "info"
+    },
+    {
+      "id": "notif-4",
+      "type": "sale",
+      "storeId": "store-1",
+      "storeName": "Loja 1 - Centro",
+      "title": "Pagamento M-Pesa Confirmado",
+      "message": "Recebimento de 1.250,00 MZN referente à fatura SLV-2026-1007.",
+      "recommendedAction": "Nenhuma ação necessária.",
+      "timestamp": "Há 2 horas",
+      "read": false,
+      "severity": "info"
+    },
+    {
+      "id": "notif-5",
+      "type": "backup_fail",
+      "title": "Backup na Nuvem Concluído",
+      "message": "Cópia de segurança automática dos dados e inventário concluída com sucesso.",
+      "recommendedAction": "O backup pode ser descarregado a qualquer momento em formato JSON.",
+      "timestamp": "Há 3 horas",
+      "read": true,
+      "severity": "success"
+    }
+  ],
+  "devices": [
+    {
+      "id": "dev-1",
+      "deviceName": "Portátil do Gestor Geral (Dispositivo Mãe)",
+      "deviceType": "laptop",
+      "os": "Windows 11 / Ubuntu",
+      "ipAddress": "197.249.12.84 (Quelimane)",
+      "isMotherDevice": true,
+      "status": "authorized",
+      "lastSeen": "Activo agora",
+      "browser": "Chrome 128 / AI Studio"
+    },
+    {
+      "id": "dev-2",
+      "deviceName": "Smartphone Loja 2 - Carlos",
+      "deviceType": "smartphone",
+      "os": "Android 14 (Samsung A54)",
+      "ipAddress": "197.249.15.110 (Quelimane)",
+      "storeId": "store-2",
+      "storeName": "Loja 2 - Quelimane (Zimpeto)",
+      "isMotherDevice": false,
+      "status": "authorized",
+      "lastSeen": "Activo há 2 min",
+      "browser": "Chrome Mobile / PWA"
+    },
+    {
+      "id": "dev-3",
+      "deviceName": "Tablet Balcão Loja 1 - Centro",
+      "deviceType": "tablet",
+      "os": "Android 13 (Lenovo Tab M10)",
+      "ipAddress": "197.249.18.42 (Quelimane)",
+      "storeId": "store-1",
+      "storeName": "Loja 1 - Centro",
+      "isMotherDevice": false,
+      "status": "authorized",
+      "lastSeen": "Activo há 10 min",
+      "browser": "PWA Standalone"
+    },
+    {
+      "id": "dev-4",
+      "deviceName": "Smartphone Loja 3 - João Paulo",
+      "deviceType": "smartphone",
+      "os": "Android 13 (Xiaomi Redmi Note 12)",
+      "ipAddress": "197.249.20.77 (Quelimane)",
+      "storeId": "store-3",
+      "storeName": "Loja 3 - 25 de Setembro",
+      "isMotherDevice": false,
+      "status": "authorized",
+      "lastSeen": "Activo há 15 min",
+      "browser": "Chrome Mobile"
+    },
+    {
+      "id": "dev-5",
+      "deviceName": "Smartphone Loja 4 - Sandra Félix",
+      "deviceType": "smartphone",
+      "os": "Android 12 (Tecno Spark 10)",
+      "ipAddress": "197.249.22.33 (Quelimane)",
+      "storeId": "store-4",
+      "storeName": "Loja 4 - Macurungo",
+      "isMotherDevice": false,
+      "status": "authorized",
+      "lastSeen": "Activo há 25 min",
+      "browser": "Chrome Mobile"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "audit-1792457576188",
+      "action": "INICIO_SESSAO",
+      "performedBy": "Carlos Nhantumbo",
+      "role": "Vendedor",
+      "details": "Sessão única iniciada para Carlos Nhantumbo. Sessões anteriores invalidadas no dispositivo.",
+      "storeId": "store-2",
+      "storeName": "Loja 2 - Quelimane (Zimpeto)",
+      "timestamp": "20/10/2026 00:52",
+      "severity": "normal"
+    },
+    {
+      "id": "audit-1792457218513",
+      "action": "INICIO_SESSAO",
+      "performedBy": "Carlos Nhantumbo",
+      "role": "Vendedor",
+      "details": "Sessão única iniciada para Carlos Nhantumbo. Sessões anteriores invalidadas no dispositivo.",
+      "storeId": "store-2",
+      "storeName": "Loja 2 - Quelimane (Zimpeto)",
+      "timestamp": "20/10/2026 00:46",
+      "severity": "normal"
+    },
+    {
+      "id": "audit-1792457207942",
+      "action": "INICIO_SESSAO",
+      "performedBy": "Carlos Nhantumbo",
+      "role": "Vendedor",
+      "details": "Sessão única iniciada para Carlos Nhantumbo. Sessões anteriores invalidadas no dispositivo.",
+      "storeId": "store-2",
+      "storeName": "Loja 2 - Quelimane (Zimpeto)",
+      "timestamp": "20/10/2026 00:46",
+      "severity": "normal"
+    },
+    {
+      "id": "audit-1792457189858",
+      "action": "INICIO_SESSAO",
+      "performedBy": "Carlos Nhantumbo",
+      "role": "Vendedor",
+      "details": "Sessão única iniciada para Carlos Nhantumbo. Sessões anteriores invalidadas no dispositivo.",
+      "storeId": "store-2",
+      "storeName": "Loja 2 - Quelimane (Zimpeto)",
+      "timestamp": "20/10/2026 00:46",
+      "severity": "normal"
+    },
+    {
+      "id": "audit-1792457121954",
+      "action": "INICIO_SESSAO",
+      "performedBy": "Moisés Estenda",
+      "role": "Gestor Geral",
+      "details": "Sessão única iniciada para Moisés Estenda. Sessões anteriores invalidadas no dispositivo.",
+      "timestamp": "20/10/2026 00:45",
+      "severity": "normal"
+    },
+    {
+      "id": "audit-1792142209656",
+      "action": "APAGAR_LOJA",
+      "performedBy": "Moisés Estenda",
+      "role": "Gestor Geral",
+      "details": "Loja removida da base de dados: Loja 8 - Teste Quelimane.",
+      "timestamp": "16/10/2026 09:16",
+      "severity": "critical"
+    },
+    {
+      "id": "audit-1792142209652",
+      "action": "CRIAR_LOJA",
+      "performedBy": "Moisés Estenda",
+      "role": "Gestor Geral",
+      "details": "Loja Loja 8 - Teste Quelimane (LOJA-08) criada e persistida no servidor central.",
+      "storeId": "store-1792142209652",
+      "storeName": "Loja 8 - Teste Quelimane",
+      "timestamp": "16/10/2026 09:16",
+      "severity": "sensitive"
+    },
+    {
+      "id": "audit-1792142209620",
+      "action": "INICIO_SESSAO",
+      "performedBy": "Moisés Estenda",
+      "role": "Gestor Geral",
+      "details": "Sessão iniciada com sucesso para Moisés Estenda (Gestor Geral).",
+      "timestamp": "16/10/2026 09:16",
+      "severity": "normal"
+    },
+    {
+      "id": "audit-1792142196679",
+      "action": "TENTATIVA_ACESSO_FALHADA",
+      "performedBy": "Sistema de Segurança",
+      "role": "Sistema",
+      "details": "Tentativa de início de sessão falhada para a conta: \"moisesmarioestenda1999@gmail.com\" (127.0.0.1).",
+      "timestamp": "16/10/2026 09:16",
+      "severity": "critical"
+    },
+    {
+      "id": "audit-1792142186147",
+      "action": "TENTATIVA_ACESSO_FALHADA",
+      "performedBy": "Sistema de Segurança",
+      "role": "Sistema",
+      "details": "Tentativa de início de sessão falhada para a conta: \"admin@slvendas.co.mz\" (127.0.0.1).",
+      "timestamp": "16/10/2026 09:16",
+      "severity": "critical"
+    },
+    {
+      "id": "audit-1792142156719",
+      "action": "INICIO_SESSAO",
+      "performedBy": "Moisés Estenda",
+      "role": "Gestor Geral",
+      "details": "Sessão iniciada com sucesso para Moisés Estenda (Gestor Geral).",
+      "timestamp": "16/10/2026 09:15",
+      "severity": "normal"
+    },
+    {
+      "id": "audit-1792142030677",
+      "action": "TERMINAR_SESSAO",
+      "performedBy": "Moisés Estenda",
+      "role": "Gestor Geral",
+      "details": "Sessão terminada para Moisés Estenda.",
+      "timestamp": "16/10/2026 09:13",
+      "severity": "normal"
+    },
+    {
+      "id": "audit-1792141926865",
+      "action": "INICIO_SESSAO",
+      "performedBy": "Moisés Estenda",
+      "role": "Gestor Geral",
+      "details": "Sessão iniciada com sucesso para Moisés Estenda (Gestor Geral).",
+      "timestamp": "16/10/2026 09:12",
+      "severity": "normal"
+    },
+    {
+      "id": "audit-1792141893242",
+      "action": "TERMINAR_SESSAO",
+      "performedBy": "Mateus Cossa",
+      "role": "Vendedor",
+      "details": "Sessão terminada para Mateus Cossa.",
+      "storeId": "store-6",
+      "storeName": "Loja 6 - Murrumbala",
+      "timestamp": "16/10/2026 09:11",
+      "severity": "normal"
+    },
+    {
+      "id": "audit-1792141878417",
+      "action": "VENDA_REGISTADA",
+      "performedBy": "Mateus Cossa",
+      "role": "Vendedor",
+      "details": "Venda SLV-2026-7701 de 1350 MZN registada na Loja 6 - Murrumbala.",
+      "storeId": "store-6",
+      "storeName": "Loja 6 - Murrumbala",
+      "timestamp": "16/10/2026 11:11",
+      "severity": "normal"
+    },
+    {
+      "id": "audit-1792141812426",
+      "action": "INICIO_SESSAO",
+      "performedBy": "Mateus Cossa",
+      "role": "Vendedor",
+      "details": "Sessão iniciada com sucesso para Mateus Cossa (Loja 6 - Murrumbala).",
+      "storeId": "store-6",
+      "storeName": "Loja 6 - Murrumbala",
+      "timestamp": "16/10/2026 09:10",
+      "severity": "normal"
+    },
+    {
+      "id": "audit-1792141796532",
+      "action": "TERMINAR_SESSAO",
+      "performedBy": "Carlos Nhantumbo",
+      "role": "Vendedor",
+      "details": "Sessão terminada para Carlos Nhantumbo.",
+      "storeId": "store-2",
+      "storeName": "Loja 2 - Quelimane (Zimpeto)",
+      "timestamp": "16/10/2026 09:09",
+      "severity": "normal"
+    },
+    {
+      "id": "audit-1792141721968",
+      "action": "INICIO_SESSAO",
+      "performedBy": "Carlos Nhantumbo",
+      "role": "Vendedor",
+      "details": "Sessão iniciada com sucesso para Carlos Nhantumbo (Loja 2 - Quelimane (Zimpeto)).",
+      "storeId": "store-2",
+      "storeName": "Loja 2 - Quelimane (Zimpeto)",
+      "timestamp": "16/10/2026 09:08",
+      "severity": "normal"
+    },
+    {
+      "id": "audit-1792140799635",
+      "action": "TERMINAR_SESSAO",
+      "performedBy": "Carlos Nhantumbo",
+      "role": "Vendedor",
+      "details": "Sessão terminada para Carlos Nhantumbo.",
+      "storeId": "store-2",
+      "storeName": "Loja 2 - Quelimane (Zimpeto)",
+      "timestamp": "16/10/2026 08:53",
+      "severity": "normal"
+    },
+    {
+      "id": "audit-1792140700500",
+      "action": "INICIO_SESSAO",
+      "performedBy": "Carlos Nhantumbo",
+      "role": "Vendedor",
+      "details": "Sessão iniciada com sucesso para Carlos Nhantumbo (Loja 2 - Quelimane (Zimpeto)).",
+      "storeId": "store-2",
+      "storeName": "Loja 2 - Quelimane (Zimpeto)",
+      "timestamp": "16/10/2026 08:51",
+      "severity": "normal"
+    },
+    {
+      "id": "audit-1792140576422",
+      "action": "TERMINAR_SESSAO",
+      "performedBy": "Moisés Estenda",
+      "role": "Gestor Geral",
+      "details": "Sessão terminada para Moisés Estenda.",
+      "timestamp": "16/10/2026 08:49",
+      "severity": "normal"
+    },
+    {
+      "id": "audit-1792140449102",
+      "action": "INICIO_SESSAO",
+      "performedBy": "Moisés Estenda",
+      "role": "Gestor Geral",
+      "details": "Sessão iniciada com sucesso para Moisés Estenda (Gestor Geral).",
+      "timestamp": "16/10/2026 08:47",
+      "severity": "normal"
+    },
+    {
+      "id": "audit-1792140413727",
+      "action": "TENTATIVA_ACESSO_FALHADA",
+      "performedBy": "Sistema de Segurança",
+      "role": "Sistema",
+      "details": "Tentativa de início de sessão falhada para a conta: \"moisesmarioestenda1999@gmail.com\" (127.0.0.1).",
+      "timestamp": "16/10/2026 08:46",
+      "severity": "critical"
+    },
+    {
+      "id": "audit-1792140250145",
+      "action": "PALAVRA_PASSE_ALTERADA",
+      "performedBy": "Ana Paula",
+      "role": "Vendedor",
+      "details": "Palavra-passe alterada com sucesso para Ana Paula (ana.paula@slvendas.co.mz).",
+      "timestamp": "16/10/2026 08:44",
+      "severity": "sensitive"
+    },
+    {
+      "id": "audit-1792140250125",
+      "action": "RECUPERACAO_SENHA_SOLICITADA",
+      "performedBy": "Ana Paula",
+      "role": "Vendedor",
+      "details": "Código de recuperação gerado para ana.paula@slvendas.co.mz (Código: 737222, válido por 15 min).",
+      "timestamp": "16/10/2026 08:44",
+      "severity": "sensitive"
+    },
+    {
+      "id": "audit-1792140241419",
+      "action": "TERMINAR_SESSAO",
+      "performedBy": "Moisés Estenda",
+      "role": "Gestor Geral",
+      "details": "Sessão terminada para Moisés Estenda.",
+      "timestamp": "16/10/2026 08:44",
+      "severity": "normal"
+    },
+    {
+      "id": "audit-1792140241416",
+      "action": "INICIO_SESSAO",
+      "performedBy": "Ana Paula",
+      "role": "Vendedor",
+      "details": "Sessão iniciada com sucesso para Ana Paula (Loja 1 - Centro).",
+      "storeId": "store-1",
+      "storeName": "Loja 1 - Centro",
+      "timestamp": "16/10/2026 08:44",
+      "severity": "normal"
+    },
+    {
+      "id": "audit-1792140241404",
+      "action": "TENTATIVA_ACESSO_FALHADA",
+      "performedBy": "Sistema de Segurança",
+      "role": "Sistema",
+      "details": "Tentativa de início de sessão falhada para a conta: \"ana.paula@slvendas.co.mz\" (127.0.0.1).",
+      "timestamp": "16/10/2026 08:44",
+      "severity": "critical"
+    },
+    {
+      "id": "audit-1792140241393",
+      "action": "PALAVRA_PASSE_ALTERADA",
+      "performedBy": "Ana Paula",
+      "role": "Vendedor",
+      "details": "Palavra-passe alterada com sucesso para Ana Paula (ana.paula@slvendas.co.mz).",
+      "timestamp": "16/10/2026 08:44",
+      "severity": "sensitive"
+    },
+    {
+      "id": "audit-1792140241375",
+      "action": "RECUPERACAO_SENHA_SOLICITADA",
+      "performedBy": "Ana Paula",
+      "role": "Vendedor",
+      "details": "Código de recuperação gerado para ana.paula@slvendas.co.mz (Código: 384568, válido por 15 min).",
+      "timestamp": "16/10/2026 08:44",
+      "severity": "sensitive"
+    },
+    {
+      "id": "audit-1792140241335",
+      "action": "INICIO_SESSAO",
+      "performedBy": "Carlos Nhantumbo",
+      "role": "Vendedor",
+      "details": "Sessão iniciada com sucesso para Carlos Nhantumbo (Loja 2 - Quelimane (Zimpeto)).",
+      "storeId": "store-2",
+      "storeName": "Loja 2 - Quelimane (Zimpeto)",
+      "timestamp": "16/10/2026 08:44",
+      "severity": "normal"
+    },
+    {
+      "id": "audit-1792140241323",
+      "action": "INICIO_SESSAO",
+      "performedBy": "Moisés Estenda",
+      "role": "Gestor Geral",
+      "details": "Sessão iniciada com sucesso para Moisés Estenda (Gestor Geral).",
+      "timestamp": "16/10/2026 08:44",
+      "severity": "normal"
+    },
+    {
+      "id": "audit-1792140241310",
+      "action": "TENTATIVA_ACESSO_FALHADA",
+      "performedBy": "Sistema de Segurança",
+      "role": "Sistema",
+      "details": "Tentativa de início de sessão falhada para a conta: \"moisesmarioestenda1999@gmail.com\" (127.0.0.1).",
+      "timestamp": "16/10/2026 08:44",
+      "severity": "critical"
+    },
+    {
+      "id": "audit-1792065082826",
+      "action": "VENDA_REGISTADA",
+      "performedBy": "Carlos Nhantumbo",
+      "role": "Vendedor",
+      "details": "Venda SLV-SYNC-2818 de 300 MZN registada na Loja 2 - Quelimane (Zimpeto).",
+      "storeId": "store-2",
+      "storeName": "Loja 2 - Quelimane (Zimpeto)",
+      "timestamp": "15/10/2026 11:51",
+      "severity": "normal"
+    },
+    {
+      "id": "audit-1792064902689",
+      "action": "VENDA_REGISTADA",
+      "performedBy": "Carlos Nhantumbo",
+      "role": "Vendedor",
+      "details": "Venda SLV-2026-REAL02 de 150 MZN registada na Loja 2 - Quelimane (Zimpeto).",
+      "storeId": "store-2",
+      "storeName": "Loja 2 - Quelimane (Zimpeto)",
+      "timestamp": "15/10/2026 11:48",
+      "severity": "normal"
+    },
+    {
+      "id": "audit-1792064538915",
+      "action": "VENDA_REGISTADA",
+      "performedBy": "Carlos Nhantumbo",
+      "role": "Vendedor",
+      "details": "Venda SLV-2026-TEST01 de 300 MZN registada na Loja 2 - Quelimane (Zimpeto).",
+      "storeId": "store-2",
+      "storeName": "Loja 2 - Quelimane (Zimpeto)",
+      "timestamp": "15/10/2026 11:42",
+      "severity": "normal"
+    },
+    {
+      "id": "audit-1792064212379",
+      "action": "CRIAR_LOJA",
+      "performedBy": "Gestor Geral",
+      "role": "Gestor Geral",
+      "details": "Loja Moisesmarioestenda  (LOJA-07) criada e persistida no servidor central.",
+      "storeId": "store-1792064211107",
+      "storeName": "Moisesmarioestenda ",
+      "timestamp": "15/10/2026 11:36",
+      "severity": "sensitive"
+    },
+    {
+      "id": "audit-1792062464128",
+      "action": "APAGAR_LOJA",
+      "performedBy": "Gestor Geral",
+      "role": "Gestor Geral",
+      "details": "Loja removida da base de dados: Loja Teste Sincronismo.",
+      "timestamp": "15/10/2026 11:07",
+      "severity": "critical"
+    },
+    {
+      "id": "audit-1792062451258",
+      "action": "CRIAR_LOJA",
+      "performedBy": "Gestor Geral",
+      "role": "Gestor Geral",
+      "details": "Loja Loja Teste Sincronismo (LOJA-TEST) criada e persistida no servidor central.",
+      "storeId": "store-1792062451251",
+      "storeName": "Loja Teste Sincronismo",
+      "timestamp": "15/10/2026 11:07",
+      "severity": "sensitive"
+    },
+    {
+      "id": "audit-1",
+      "action": "LOGIN_GESTOR_GERAL",
+      "performedBy": "Moisés Estenda",
+      "role": "Gestor Geral",
+      "details": "Autenticação bem-sucedida a partir do Dispositivo Mãe.",
+      "timestamp": "15/10/2026 08:30",
+      "severity": "normal"
+    },
+    {
+      "id": "audit-2",
+      "action": "VENDA_REGISTADA",
+      "performedBy": "Carlos Nhantumbo",
+      "role": "Vendedor",
+      "details": "Venda de 1.200,00 MZN registada com sucesso (SLV-2026-1001).",
+      "storeId": "store-2",
+      "storeName": "Loja 2 - Quelimane (Zimpeto)",
+      "timestamp": "15/10/2026 10:18",
+      "severity": "normal"
+    },
+    {
+      "id": "audit-3",
+      "action": "DESCONTO_APLICADO",
+      "performedBy": "Ana Paula",
+      "role": "Vendedor",
+      "details": "Desconto de 250,00 MZN autorizado na venda SLV-2026-1007.",
+      "storeId": "store-1",
+      "storeName": "Loja 1 - Centro",
+      "timestamp": "15/10/2026 14:12",
+      "severity": "sensitive"
+    },
+    {
+      "id": "audit-4",
+      "action": "SINCRONIZACAO_OFFLINE",
+      "performedBy": "Sistema Automático",
+      "role": "System",
+      "details": "Fila de vendas sincronizada após restabelecimento de ligação à Internet.",
+      "timestamp": "15/10/2026 09:15",
+      "severity": "normal"
+    }
+  ],
+  "customers": [
+    {
+      "id": "cust-1",
+      "name": "Manuel Chissano",
+      "phone": "+258 84 777 1234",
+      "email": "manuel.chissano@gmail.com",
+      "address": "Bairro Aeroporto, Quelimane",
+      "totalPurchases": 18450,
+      "debtAmount": 0,
+      "lastVisit": "Hoje"
+    },
+    {
+      "id": "cust-2",
+      "name": "Fátima Couto",
+      "phone": "+258 82 888 5678",
+      "email": "fatima.couto@yahoo.com",
+      "address": "Av. Marginal, Quelimane",
+      "totalPurchases": 9200,
+      "debtAmount": 0,
+      "lastVisit": "Hoje"
+    },
+    {
+      "id": "cust-3",
+      "name": "Alberto Sengo",
+      "phone": "+258 86 333 4455",
+      "address": "Bairro Sinacura, Quelimane",
+      "totalPurchases": 4500,
+      "debtAmount": 0,
+      "lastVisit": "Hoje"
+    }
+  ],
+  "suppliers": [
+    {
+      "id": "sup-1",
+      "name": "Moçambique Tech Distribuidora",
+      "contactPerson": "Sérgio Macamo",
+      "phone": "+258 84 500 1122",
+      "email": "comercial@moctech.co.mz",
+      "category": "Acessórios e Cabos",
+      "address": "Av. de Moçambique, 2100 - Maputo"
+    },
+    {
+      "id": "sup-2",
+      "name": "Zambézia Importações Lda",
+      "contactPerson": "Gulamo Vally",
+      "phone": "+258 82 400 3344",
+      "email": "vendas@zambeziaimport.co.mz",
+      "category": "Electrónica e Áudio",
+      "address": "Rua do Comércio, 88 - Quelimane"
+    }
+  ],
+  "credentials": [
+    {
+      "userId": "user-admin",
+      "email": "moisesmarioestenda1999@gmail.com",
+      "salt": "9ea8c1f5dc40a2758b553450866352e9",
+      "passwordHash": "5e5ab99197fd1105ac9fa950e3131a11140b63ff47b3528e719dd9472e6d0c84645c4708a4af6d4779884252e21c32fcd2f632ccc76418fcb6cca6b86887aa2f",
+      "updatedAt": "2026-10-16T08:44:01.215Z"
+    },
+    {
+      "userId": "user-seller-2",
+      "email": "carlos.nhantumbo@slvendas.co.mz",
+      "salt": "6da925cc8adfb73721915cd88b8b3372",
+      "passwordHash": "b5cf72d9ae784c4c9be451d3785a348651a3128b87ed6871f73a7304f98a12a612932dd2be21f7b6a05d2c7b069d6809ef7525d88ed7a06047da4ce6b2e98921",
+      "updatedAt": "2026-10-16T08:44:01.221Z"
+    },
+    {
+      "userId": "user-seller-1",
+      "email": "ana.paula@slvendas.co.mz",
+      "salt": "9082cd15092ca95e906049f9dd091df7",
+      "passwordHash": "5b48b08bf101cf4ab7dc5fbb85f1b63b5feef454eb7c4b9e1a5f00d2b64813dd0eb58924cf9476a35f3e43b330441a71a62ea6fad59e4c76bf9ee3f39b9f021c",
+      "updatedAt": "2026-10-16T08:44:10.145Z"
+    },
+    {
+      "userId": "user-seller-3",
+      "email": "joao.paulo@slvendas.co.mz",
+      "salt": "19276f72eac22a41f5fe6d9ad49d57a7",
+      "passwordHash": "79e18b8997034d3c747f17b5f9def3aa5de3686d1fc21679b1a469c5159dae15c4174c5c4b85a8c097d92d4c3352448e650798d965a7a8361652bb15cdbf3a72",
+      "updatedAt": "2026-10-16T08:44:01.233Z"
+    },
+    {
+      "userId": "user-seller-4",
+      "email": "sandra.felix@slvendas.co.mz",
+      "salt": "d96f9f267c865ee4c0d57b673ba69c7e",
+      "passwordHash": "3e9601a5ad00428cdfa3f40080ac1cc3d1c883398040f0e52f8ec20d938a84600205a3825627be4f19a75c5db9fe5707e9351029d69af57956b2868a2e1d5bba",
+      "updatedAt": "2026-10-16T08:44:01.239Z"
+    },
+    {
+      "userId": "user-seller-5",
+      "email": "rui.manuel@slvendas.co.mz",
+      "salt": "991d34453104d23b0f450e1246eb5008",
+      "passwordHash": "ecc309bc813d278d80b459bce32ed7a0f71477accf3898ec9776934eac7a7f60ce83a0fd514929fbb9cffe24e2e9d133ef383c23ccf8050bdf2d20c77cf0eb39",
+      "updatedAt": "2026-10-16T08:44:01.245Z"
+    },
+    {
+      "userId": "user-seller-6",
+      "email": "mateus.cossa@slvendas.co.mz",
+      "salt": "0b82fe160416613b8a5fe1fd79d99715",
+      "passwordHash": "4be1579fe6bac6666aa9f57320dcde50b5e7da1944c6bfdebfdef542cc45d81b56b85ef214b20ecff4ece688f771ad65d29bbc72edb88f2e9dcbfe633647a2bb",
+      "updatedAt": "2026-10-16T08:44:01.251Z"
+    }
+  ],
+  "sessions": {
+    "1541332bb909851cd5dbab5740a051b0cca504012c004af32ea0f44d71866409": {
+      "userId": "user-admin",
+      "user": {
+        "id": "user-admin",
+        "name": "Moisés Estenda",
+        "email": "moisesmarioestenda1999@gmail.com",
+        "phone": "+258 84 000 0001",
+        "role": "admin",
+        "status": "active",
+        "permissions": {
+          "canApplyDiscount": true,
+          "maxDiscountPercent": 50,
+          "canCancelSales": true,
+          "canViewReports": true,
+          "canEditStock": true
+        },
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80",
+        "lastLogin": "Agora mesmo"
+      },
+      "createdAt": 1792457121954,
+      "expiresAt": 1795049121954
+    },
+    "89e8f9b7d7c7a76fa67f40f1d3a3c5cdd1ad6739934fd64e7e2a9a3d7b38d9fa": {
+      "userId": "user-seller-2",
+      "user": {
+        "id": "user-seller-2",
+        "name": "Carlos Nhantumbo",
+        "email": "carlos.nhantumbo@slvendas.co.mz",
+        "phone": "+258 84 987 6543",
+        "role": "seller",
+        "storeId": "store-2",
+        "storeName": "Loja 2 - Quelimane (Zimpeto)",
+        "status": "active",
+        "permissions": {
+          "canApplyDiscount": true,
+          "maxDiscountPercent": 10,
+          "canCancelSales": false,
+          "canViewReports": false,
+          "canEditStock": false
+        },
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80",
+        "lastLogin": "Agora mesmo"
+      },
+      "createdAt": 1792457576183,
+      "expiresAt": 1795049576183
+    }
+  },
+  "resetCodes": {},
+  "systemVersion": "2.5.0-enterprise",
+  "versionChangelog": [
+    {
+      "version": "2.5.0-enterprise",
+      "releasedAt": "20/10/2026",
+      "notes": "Arquitetura Hub-and-Spoke com WebSockets em tempo real, push update centralizado, suporte offline zero falhas e comando mestre de limpeza com 2FA Gmail.",
+      "releasedBy": "Moisés Estenda (Gestor Geral)"
+    }
+  ],
+  "lastUpdated": "2026-10-20T00:52:56.189Z",
+  "categories": [
+    {
+      "id": "cat-1",
+      "name": "Electrónica",
+      "description": "Smartphones, smartwatches e dispositivos eletrónicos",
+      "color": "#10B981",
+      "icon": "Cpu"
+    },
+    {
+      "id": "cat-2",
+      "name": "Acessórios",
+      "description": "Capas, películas, suportes e adaptadores",
+      "color": "#3B82F6",
+      "icon": "Sparkles"
+    },
+    {
+      "id": "cat-3",
+      "name": "Áudio",
+      "description": "Fones de ouvido bluetooth, colunas de som e caixas portáteis",
+      "color": "#8B5CF6",
+      "icon": "Headphones"
+    },
+    {
+      "id": "cat-4",
+      "name": "Informática",
+      "description": "Portáteis, memórias, teclados, ratos e periféricos",
+      "color": "#06B6D4",
+      "icon": "Laptop"
+    },
+    {
+      "id": "cat-5",
+      "name": "Telecomunicações",
+      "description": "Routers 4G/5G, modems e cartões SIM",
+      "color": "#F59E0B",
+      "icon": "Wifi"
+    },
+    {
+      "id": "cat-6",
+      "name": "Eletrodomésticos",
+      "description": "Pequenos e grandes aparelhos domésticos",
+      "color": "#EC4899",
+      "icon": "Tv"
+    },
+    {
+      "id": "cat-7",
+      "name": "Bebidas & Mercearia",
+      "description": "Refrigerantes, sumos, água e produtos alimentares",
+      "color": "#14B8A6",
+      "icon": "Coffee"
+    },
+    {
+      "id": "cat-8",
+      "name": "Outros",
+      "description": "Artigos diversos e serviços gerais",
+      "color": "#64748B",
+      "icon": "Package"
+    }
+  ]
+}
